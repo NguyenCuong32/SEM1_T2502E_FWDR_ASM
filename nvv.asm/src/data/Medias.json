@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "/img/1.jpg",
+    "title": "Take me to your heart",
+    "vote": 1
+  },
+  {
+    "id": 2,
+    "img": "/img/2.jpg",
+    "title": "My Love",
+    "vote": 1
+  },
+  {
+    "id": 3,
+    "img": "/img/3.jpg",
+    "title": "Cry on my shoulder",
+    "vote": 1
+  },
+  {
+    "id": 4,
+    "img": "/img/4.jpg",
+    "title": "Breathless",
+    "vote": 1
+  }
+]

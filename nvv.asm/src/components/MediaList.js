@@ -1,5 +1,4 @@
 import Media from "./Media";
-import "./Media";
 import Medias from "../data/Medias.json";
 
 function MediaList() {

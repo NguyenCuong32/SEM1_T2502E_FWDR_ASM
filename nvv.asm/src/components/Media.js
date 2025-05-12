@@ -7,14 +7,29 @@ function Media(props) {
   return (
     <div className="col-md-3 mb-3">
       <Card className="card-media">
-        <Card.Img variant="top" src="https://picsum.photos/200/300" />
+        <audio
+          controls
+          src={props.audio}
+          className="media-audio"
+          style={{ width: "100%" }}></audio>
+        <Card.Img
+          variant="top"
+          src={props.img}
+          alt={props.title}
+          className="media-img"
+          style={{ height: "200px" }}
+        />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title>{props.title}</Card.Title>
+          <Card.Text>Votes: {props.vote}</Card.Text>{" "}
+          <Button
+            variant="primary"
+            href={props.link}
+            target="_blank"
+            rel="noopener noreferrer">
+            {" "}
+            Go to Media
+          </Button>
         </Card.Body>
       </Card>
     </div>
