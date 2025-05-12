@@ -1,0 +1,77 @@
+.music-card {
+  border: 1px solid #a9c4fb;
+  border-radius: 10px;
+  padding: 15px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+  margin-left: 170px;
+}
+
+.music-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.lyrics-content
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-title {
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.music-lyrics {
+  margin-left: 500px;
+  flex-direction: column;
+  align-items: center;
+}
+.container-album
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+.container-album-item
+{
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.container-album-item-img
+{
+  width: 21.1rem;
+  height: auto;
+  border-radius: 8px;
+}
+.container-album-item-name
+{
+  display: flex;
+  justify-content: start;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.container-album-item-star {
+  display: flex;
+}
+
+.container-album-item-star-img
+{
+  width: 30px;
+  height: 30px;
+}
