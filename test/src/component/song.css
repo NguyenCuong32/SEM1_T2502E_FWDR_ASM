@@ -1,0 +1,21 @@
+.song img {
+    width: 240px;
+    height: 240px;
+    margin-right: 8px;
+}
+
+.song h2 {
+    font-size: 18px;
+    margin: 8px;
+}
+
+.card {
+    background-color: rgb(254, 250, 250) !important;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.song:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
