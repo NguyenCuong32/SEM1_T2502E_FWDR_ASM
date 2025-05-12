@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #0056d2;
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #0056d2;
+}
+
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+.navbar-auth {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-signin,
+.btn-signup {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 1px solid #0056d2;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-signin {
+  color: white;
+  background-color: #0056d2;
+}
+
+.btn-signup {
+  color: #0056d2;
+  background-color: white;
+}
+
+.btn-signin:hover {
+  background-color: #0041a8;
+}
+
+.btn-signup:hover {
+  background-color: #e6f0ff;
+}

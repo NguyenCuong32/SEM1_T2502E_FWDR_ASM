@@ -1,0 +1,43 @@
+.body {
+  padding: 20px 40px;
+  font-family: Arial, sans-serif;
+}
+
+.player-section {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.lyrics {
+  max-width: 600px;
+}
+
+.lyrics .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
+.music-item {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.music-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
