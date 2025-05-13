@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "src": "vancao.jpg",
+    "name": "Nhạc sĩ Văn Cao",
+    "danhgia": 1
+  },
+  {
+    "id": 2,
+    "src": "dothuan.jpg",
+    "name": "Nhạc sĩ Đỗ Nhuận",
+    "danhgia": 2
+  },
+  {
+    "id": 3,
+    "src": "anthuyen.jpg",
+    "name": "Nhạc sĩ An Thuyên",
+    "danhgia": 3
+  },
+  {
+    "id": 4,
+    "src": "luuhuuphuoc.jpg",
+    "name": "Lưu Hữu Phước",
+    "danhgia": 4
+  },
+  {
+    "id": 5,
+    "src": "phamtuyen.jpg",
+    "name": "Phạm Tuyên",
+    "danhgia": 5
+  },
+  {
+    "id": 6,
+    "src": "lethuong.jpg",
+    "name": "Nhạc sỹ Lê Thương",
+    "danhgia": 6
+  },
+  {
+    "id": 7,
+    "src": "nguyenvanty.jpg",
+    "name": "Nhạc sỹ Nguyễn Văn Tý",
+    "danhgia": 7
+  },
+  {
+    "id": 8,
+    "src": "phamduy.jpg",
+    "name": "Nhạc sỹ Phạm Duy",
+    "danhgia": 8
+  },
+  {
+    "id": 9,
+    "src": "doanchuan.jpg",
+    "name": "Nhạc sỹ Đoàn Chuẩn",
+    "danhgia": 8
+  },
+  {
+    "id": 10,
+    "src": "trinhcongson.jpg",
+    "name": "Nhạc sĩ Trịnh Công sơn",
+    "danhgia": 8
+  }
+]
