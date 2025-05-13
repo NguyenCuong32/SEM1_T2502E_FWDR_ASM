@@ -2,7 +2,6 @@ import Container from "react-bootstrap/Container";
 import { NavLink } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import Button from "react-bootstrap/esm/Button";
 import "./Header.css";
 
 function Header() {
@@ -26,10 +25,10 @@ function Header() {
             <NavLink className="nav-link" to="/about">
               About us
             </NavLink>
-            <NavLink className="nav-link" to="/music">
+            <NavLink className="nav-link" to="/Media">
               Music
             </NavLink>
-            <NavLink className="nav-link" to="/albums">
+            <NavLink className="nav-link" to="/Media">
               Albums
             </NavLink>
           </Nav>

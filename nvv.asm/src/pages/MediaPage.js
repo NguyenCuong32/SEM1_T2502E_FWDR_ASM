@@ -1,8 +1,9 @@
 import MediaList from "../components/MediaList";
-function MediaPage() {
+function MediaPage({ onSongSelect }) {
   return (
     <div className="container mt-4">
-      <MediaList />
+      <MediaList onSongSelect={onSongSelect} />
+      <MediaList onSongSelect={onSongSelect} />
     </div>
   );
 }

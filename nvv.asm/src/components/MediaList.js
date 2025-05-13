@@ -1,7 +1,7 @@
 import Media from "./Media";
 import Medias from "../data/Medias.json";
 
-function MediaList() {
+function MediaList({ onSongSelect }) {
   return (
     <div className="row">
       {Medias.map((media) => {
@@ -12,6 +12,7 @@ function MediaList() {
             title={media.title}
             link={media.link}
             vote={media.vote}
+            onSelect={() => onSongSelect(media)}
           />
         );
       })}

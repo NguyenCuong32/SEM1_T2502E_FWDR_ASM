@@ -1,37 +1,86 @@
 [
   {
     "id": 1,
-    "img": "/img/1.jpg",
+    "img": "/image/1.jpg",
     "title": "Take me to your heart",
     "link": "./audio/Take Me To Your Heart.mp3",
     "vote": 4
   },
   {
     "id": 2,
-    "img": "/img/2.jpg",
+    "img": "/image/2.jpg",
     "title": "My Love",
     "link": "./audio/My Love.mp3",
     "vote": 3
   },
   {
     "id": 3,
-    "img": "/img/3.jpg",
+    "img": "/image/3.jpg",
     "title": "Cry on my shoulder",
-    "link": "./audio/Cry On My Shoulder",
+    "link": "./audio/Cry On My Shoulder.mp3",
     "vote": 2
   },
   {
     "id": 4,
-    "img": "/img/4.jpg",
+    "img": "/image/4.jpg",
     "title": "Breathless",
     "link": "./audio/Breathless.mp3",
     "vote": 1
   },
   {
     "id": 5,
-    "img": "/img/1.jpg",
+    "img": "/image/4.jpg",
     "title": "Until you",
     "link": "./audio/Until You.mp3",
     "vote": 1
+  },
+  {
+    "id": 6,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 7,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 8,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 9,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 10,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 11,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 12,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
   }
 ]
