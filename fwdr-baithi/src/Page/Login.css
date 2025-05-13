@@ -1,0 +1,7 @@
+.btn.w-100 {
+  background-color: rgb(43, 43, 224);
+  color: white;
+}
+.btn.w-100:hover {
+  background-color: slategray;
+}

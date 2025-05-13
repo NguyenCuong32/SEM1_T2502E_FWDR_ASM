@@ -1,0 +1,23 @@
+.nav-link {
+  font-size: large;
+  font-weight: bold;
+}
+.nav-link:hover {
+  background-color: slategray;
+}
+button:hover {
+  background-color: slategray;
+}
+.btn {
+  background-color: white;
+}
+.btn:hover {
+  background-color: slategray;
+}
+.btn.h-auto {
+  background-color: rgb(42, 42, 202);
+  color: white;
+}
+.btn.h-auto:hover {
+  background-color: slategray;
+}
