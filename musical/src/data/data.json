@@ -1,0 +1,68 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Take me to your heart",
+      "lyrics": "Take me to your heart, take me to your soul\nGive me your hand before I'm old\nShow me what love is, haven't got a clue\nShow me that wonders can be true",
+      "image": "/images/take-me-to.jpeg",
+      "artist": "Michael Learns To Rock",
+      "rating": 3
+    },
+    {
+      "id": 2,
+      "title": "My love",
+      "lyrics": "An empty street, an empty house\nA hole inside my heart\nI'm all alone, the rooms are getting smaller",
+      "image": "/images/take-me-to.jpeg",
+      "artist": "Westlife",
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "title": "Cry on my shoulder",
+      "lyrics": "If the hero never comes to you\nIf the mountain never falls to the sea\nIf a dream that once came true\nCan just slip away from you",
+      "image": "../../public/images/take-me-to.jpeg",
+      "artist": "Deutschland Sucht Den Superstar",
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "title": "Breathless",
+      "lyrics": "Go on, go on, leave me breathless\nCome on, come on, leave me breathless\nGo on, go on, leave me breathless\nCome on, come on, leave me breathless",
+      "image": "../../public/images/take-me-to.jpeg",
+      "artist": "Shayne Ward",
+      "rating": 3
+    },
+    {
+      "id": 5,
+      "title": "Until You",
+      "lyrics": "Until you I was lost and lonely\nUntil you, my life was cold\nUntil you, I was less than half a whole\nUntil you",
+      "image": "../../public/images/take-me-to.jpeg",
+      "artist": "Shayne Ward",
+      "rating": 3
+    },
+    {
+      "id": 6,
+      "title": "Take me to your heart",
+      "lyrics": "Take me to your heart, take me to your soul\nGive me your hand before I'm old\nShow me what love is, haven't got a clue\nShow me that wonders can be true",
+      "image": "../../public/images/take-me-to.jpeg",
+      "artist": "Michael Learns To Rock",
+      "rating": 3
+    },
+    {
+      "id": 7,
+      "title": "Take me to your heart",
+      "lyrics": "Take me to your heart, take me to your soul\nGive me your hand before I'm old\nShow me what love is, haven't got a clue\nShow me that wonders can be true",
+      "image": "../../public/images/take-me-to.jpeg",
+      "artist": "Michael Learns To Rock",
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "title": "Take me to your heart",
+      "lyrics": "Take me to your heart, take me to your soul\nGive me your hand before I'm old\nShow me what love is, haven't got a clue\nShow me that wonders can be true",
+      "image": "../../public/images/take-me-to.jpeg",
+      "artist": "Michael Learns To Rock",
+      "rating": 3
+    }
+  ]
+}
