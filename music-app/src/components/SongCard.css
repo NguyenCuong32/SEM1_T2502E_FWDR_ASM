@@ -1,0 +1,18 @@
+.song-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.song-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.stars {
+  color: gold;
+  margin-top: 5px;
+}
