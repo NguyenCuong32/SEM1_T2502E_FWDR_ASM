@@ -13,6 +13,7 @@ function MediaList({ onSongSelect }) {
             link={media.link}
             vote={media.vote}
             onSelect={() => onSongSelect(media)}
+            lyrics={media.lyrics}
           />
         );
       })}

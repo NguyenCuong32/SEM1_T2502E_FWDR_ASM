@@ -4,7 +4,8 @@
     "img": "/image/1.jpg",
     "title": "Take me to your heart",
     "link": "./audio/Take Me To Your Heart.mp3",
-    "vote": 4
+    "vote": 4,
+    "lyrics": "Take me to your heart, take me to your soul. Give me your hand before I'm old. Show me what love is, haven't got a clue. Show me that wonders can be true."
   },
   {
     "id": 2,
