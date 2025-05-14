@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4,
+    "lyrics": "Take me to your heart, take me to your soul. Give me your hand before I'm old. Show me what love is, haven't got a clue. Show me that wonders can be true."
+  },
+  {
+    "id": 2,
+    "img": "/image/2.jpg",
+    "title": "My Love",
+    "link": "./audio/My Love.mp3",
+    "vote": 3
+  },
+  {
+    "id": 3,
+    "img": "/image/3.jpg",
+    "title": "Cry on my shoulder",
+    "link": "./audio/Cry On My Shoulder.mp3",
+    "vote": 2
+  },
+  {
+    "id": 4,
+    "img": "/image/4.jpg",
+    "title": "Breathless",
+    "link": "./audio/Breathless.mp3",
+    "vote": 1
+  },
+  {
+    "id": 5,
+    "img": "/image/4.jpg",
+    "title": "Until you",
+    "link": "./audio/Until You.mp3",
+    "vote": 1
+  },
+  {
+    "id": 6,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 7,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 8,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 9,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 10,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 11,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  },
+  {
+    "id": 12,
+    "img": "/image/1.jpg",
+    "title": "Take me to your heart",
+    "link": "./audio/Take Me To Your Heart.mp3",
+    "vote": 4
+  }
+]

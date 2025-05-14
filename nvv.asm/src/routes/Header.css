@@ -1,0 +1,53 @@
+.header-text {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 100px;
+  text-align: center;
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 15px;
+}
+.header-text:hover {
+  color: orangered;
+  animation: backwards;
+}
+.logo-text {
+  font-size: 40px;
+  margin-left: 5px;
+  color: black;
+}
+.logo-text:hover {
+  color: rgb(255, 38, 0);
+}
+.header-btn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+  margin-top: 10px;
+  height: max-content;
+}
+.header-btn button {
+  font-size: 25px;
+  padding: 12px 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-btn button:hover {
+  background-color: color(from color srgb r g b);
+}
+.header-btn button:active {
+  background-color: #006e0f;
+}
+.header-btn button:focus {
+  outline: none;
+}

@@ -1,0 +1,37 @@
+.player {
+  margin: 50px;
+}
+.player-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  width: 100%;
+}
+.playing-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  gap: 10px;
+}
+.playing-info img {
+  height: 30px;
+  width: 30px;
+}
+
+.playing-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  gap: 5px;
+  text-align: start;
+  justify-content: start;
+}
+
+.player-lyrics {
+  columns: 1;
+  font-size: 16px;
+  font-weight: bold, italic;
+}
