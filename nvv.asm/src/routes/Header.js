@@ -17,11 +17,11 @@ function Header() {
             alt="logo"
             width="50px"
             height="50px"></img>
-          <b>Musical</b>
+          <b className="logo-text">Musical</b>
         </Navbar.Brand>{" "}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="Navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto header-text">
             <NavLink className="nav-link" to="/about">
               About us
             </NavLink>
@@ -33,12 +33,14 @@ function Header() {
             </NavLink>
           </Nav>
         </Navbar.Collapse>
-        <NavLink to="/login" className="nav-link">
-          <button className="btn btn-primary">Login</button>
-        </NavLink>
-        <NavLink to="/signup" className="nav-link">
-          <button className="btn btn-success">Sign Up</button>
-        </NavLink>
+        <Nav className="d-flex align-items-center gap-1 header-btn">
+          <NavLink to="/login" className="nav-link">
+            <button className="btn btn-primary">Login</button>
+          </NavLink>
+          <NavLink to="/signup" className="nav-link">
+            <button className="btn btn-success">Sign Up</button>
+          </NavLink>
+        </Nav>
       </Container>
     </Navbar>
   );
