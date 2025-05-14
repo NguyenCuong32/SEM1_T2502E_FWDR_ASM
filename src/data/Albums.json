@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "The Dark Side of the Moon",
+        "artist": "Pink Floyd",
+        "img": "./Canhdep_Vietnam-1.jpg",
+        "rating": 4
+    },
+    {
+        "id": 2,
+        "title": "Back in Black",
+        "artist": "AC/DC",
+        "img": "./Canhdep_Vietnam-1.jpg",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "title": "The Bodyguard",
+        "artist": "Whitney Houston",
+        "img": "./Canhdep_Vietnam-1.jpg",
+        "rating": 4
+    },
+    {
+        "id": 4,
+        "title": "Rumours",
+        "artist": "Fleetwood Mac",
+        "img": "./Canhdep_Vietnam-1.jpg",
+        "rating": 5
+    }
+]

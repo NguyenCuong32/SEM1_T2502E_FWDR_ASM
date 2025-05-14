@@ -1,0 +1,261 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  }
+  
+  .app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  }
+  
+  .container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles 1  */
+  .header {
+  background-color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  }
+
+  .logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #333;
+  }
+  
+  .logo svg {
+  margin-right: 8px;
+  fill: #007bff;
+  }
+  
+  .nav {
+  display: flex;
+  }
+  
+  .nav a {
+  text-decoration: none;
+  color: #555;
+  margin-left: 15px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  }
+  
+  .nav a:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+  }
+  
+  .auth button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  }
+  
+  .sign-in {
+  background-color: #007bff;
+  color: #fff;
+  }
+  
+  .sign-in:hover {
+  background-color: #0056b3;
+  }
+  
+  .sign-up {
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+  }
+  
+  .sign-up:hover {
+  background-color: #f0f8ff;
+  }
+  
+  /* Player Styles */
+  .player {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  }
+  
+  .player-controls {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  }
+  
+  .play-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  }
+  
+  .play-button svg {
+  fill: #007bff;
+  width: 24px;
+  height: 24px;
+  }
+  
+  .time {
+  color: #555;
+  font-size: 0.9em;
+  margin-left: 10px;
+  }
+  
+  .song-info {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  }
+  
+  .song-info svg {
+  fill: #e91e63; /* Pink color */
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  }
+  
+  .song-info span {
+  font-weight: bold;
+  color: #333;
+  }
+  
+  .lyrics {
+  color: #777;
+  font-size: 0.85em;
+  white-space: pre-line;
+  margin-top: 5px;
+  }
+  
+  .player-options {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  }
+  
+  .volume-button, .more-options {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 10px;
+  }
+  
+  .volume-button svg, .more-options svg {
+  fill: #555;
+  width: 20px;
+  height: 20px;
+  }
+  
+  .volume-control {
+  display: flex;
+  align-items: center;
+  }
+  
+  .volume-control input {
+  margin-left: 5px;
+  }
+  
+
+  .album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 20px;
+  }
+  
+  .album-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  }
+  
+  .album-item:hover {
+  transform: scale(1.02);
+  }
+  
+  .album-item img {
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-bottom: 1px solid #eee;
+  }
+  
+  .album-info {
+  padding: 10px;
+  text-align: center;
+  flex-grow: 1;
+  }
+  
+  .album-title {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  
+  .rating {
+  color: gold;
+  font-size: 0.8em;
+  }
+  
+  .star {
+  color: #ccc;
+  }
+  
+  .star.filled {
+  color: gold;
+  }
+  
+  Footer Styles /
+  .footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+  }
+  
+  .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  font-size: 0.9em;
+  }
+  
+  .footer-content svg {
+  fill: #007bff;
+  width: 16px;
+  height: 16px;
+  margin: 0 5px;
+  }
