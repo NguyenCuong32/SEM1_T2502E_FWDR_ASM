@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Take me to your heart",
+    "artist": "MLTR",
+    "image": "images/1.jpg",
+    "rating": 5
+  },
+  {
+    "title": "My love",
+    "artist": "Westlife",
+    "image": "images/2.jpg",
+    "rating": 4
+  },
+  {
+    "title": "Cry on my shoulder",
+    "artist": "Super Stars",
+    "image": "images/3.jpg",
+    "rating": 4
+  },
+  {
+    "title": "Breathless",
+    "artist": "Super Stars",
+    "image": "images/4.jpg",
+    "rating": 4
+  }
+  
+]
