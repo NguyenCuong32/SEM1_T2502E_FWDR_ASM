@@ -1,0 +1,145 @@
+{
+  "music": [
+    {
+      "id": 1,
+      "title": "Take me to your heart",
+      "image": "https://picsum.photos/id/1/200/200",
+      "rating": 4,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "lyrics": [
+        "Take me to your heart, take me to your soul",
+        "Give me your hand before I'm old",
+        "Show me what love is, haven't got a clue",
+        "Show me that wonders can be true"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "My love",
+      "image": "https://picsum.photos/id/2/200/200",
+      "rating": 5,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Cry on my shoulder",
+      "image": "https://picsum.photos/id/3/200/200",
+      "rating": 3,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Breathless",
+      "image": "https://picsum.photos/id/4/200/200",
+      "rating": 4,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Until You",
+      "image": "https://picsum.photos/id/5/200/200",
+      "rating": 5,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Nothing Gonna Change My Love For You",
+      "image": "https://picsum.photos/id/6/200/200",
+      "rating": 4,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+    },
+    {
+      "id": 7,
+      "title": "Yesterday Once More",
+      "image": "https://picsum.photos/id/7/200/200",
+      "rating": 4,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+    },
+    {
+      "id": 8,
+      "title": "Right Here Waiting",
+      "image": "https://picsum.photos/id/8/200/200",
+      "rating": 3,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+    },
+    {
+      "id": 9,
+      "title": "My Heart Will Go On",
+      "image": "https://picsum.photos/id/9/200/200",
+      "rating": 5,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
+    },
+    {
+      "id": 10,
+      "title": "Love Story",
+      "image": "https://picsum.photos/id/10/200/200",
+      "rating": 4,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3"
+    },
+    {
+      "id": 11,
+      "title": "Perfect",
+      "image": "https://picsum.photos/id/11/200/200",
+      "rating": 5,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3"
+    },
+    {
+      "id": 12,
+      "title": "All of Me",
+      "image": "https://picsum.photos/id/12/200/200",
+      "rating": 4,
+      "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3"
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Michael Jackson",
+      "image": "/images/artists/michaeljackson-1676607938112319547228.jpg",
+      "genre": "Pop",
+      "popularSongs": ["Thriller", "Billie Jean", "Beat It"]
+    },
+    {
+      "id": 2,
+      "name": "Adele",
+      "image": "https://picsum.photos/id/1002/200/200",
+      "genre": "Pop, Soul",
+      "popularSongs": ["Hello", "Someone Like You", "Rolling in the Deep"]
+    },
+    {
+      "id": 3,
+      "name": "Ed Sheeran",
+      "image": "https://picsum.photos/id/1003/200/200",
+      "genre": "Pop, Folk-pop",
+      "popularSongs": ["Shape of You", "Perfect", "Thinking Out Loud"]
+    },
+    {
+      "id": 4,
+      "name": "Beyoncé",
+      "image": "https://picsum.photos/id/1004/200/200",
+      "genre": "R&B, Pop",
+      "popularSongs": ["Halo", "Single Ladies", "Crazy in Love"]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Music User",
+      "email": "user@example.com",
+      "password": "password123"
+    }
+  ],
+  "auth": {
+    "login": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik11c2ljIFVzZXIiLCJpYXQiOjE1MTYyMzkwMjJ9",
+      "user": {
+        "id": 1,
+        "name": "Music User",
+        "email": "user@example.com"
+      }
+    },
+    "register": {
+      "message": "Đăng ký thành công"
+    }
+  }
+} 
