@@ -1,0 +1,36 @@
+.music-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Tự động điều chỉnh số cột */
+  gap: 20px; /* Khoảng cách giữa các thẻ nhạc */
+  padding: 20px;
+}
+
+.music-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho thẻ nhạc */
+  text-align: center;
+}
+
+.music-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.music-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.music-player {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.music-rating {
+  font-size: 14px;
+  color: #555;
+}

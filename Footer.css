@@ -1,0 +1,16 @@
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.brand h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}

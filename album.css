@@ -1,0 +1,77 @@
+/* .album {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.album:hover {
+  transform: translateY(-5px);
+}
+.album-cover {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+} */
+.album {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Đổ bóng cho album */
+  padding: 16px;
+  max-width: 280px; /* Kích thước tối đa của album */
+  margin: 16px auto;
+  text-align: center;
+  transition: transform 0.3s ease; /* Hiệu ứng chuyển động khi hover */
+}
+
+.album:hover {
+  transform: translateY(-5px);
+}
+
+.album-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  margin-bottom: 12px;
+}
+
+.album h2 {
+  font-size: 20px;
+  font-weight: bold; /* Đậm tiêu đề */
+  margin: 8px 0;
+  color: #333333;
+}
+
+.album p {
+  font-size: 14px;
+  color: #555555;
+  margin: 4px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .album {
+    max-width: 90%;
+    padding: 12px;
+  }
+
+  .album h2 {
+    font-size: 18px;
+  }
+
+  .album p {
+    font-size: 13px;
+  }
+} 
+.album-list {
+    display: grid; /* Sử dụng grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Tự động điều chỉnh số cột */
+    gap: 20px; /* Khoảng cách giữa các album */
+    padding: 20px; /* Khoảng cách bên trong album-list */
+ }

@@ -1,0 +1,50 @@
+.song-box {
+  max-width: 1100px;
+  margin: 24px auto; /* căn giữa trang */
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Đổ bóng cho khung */
+}
+
+.audio-player {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.song-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Icon và tiêu đề bên trái */
+.song-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.song-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.song-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Lời bài hát bên phải */
+.lyrics {
+  flex: 2; /* Chiếm 2/3 chiều rộng */
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6; /* Khoảng cách giữa các dòng */
+  text-align: end; /* căn giữa lời bài hát */
+}

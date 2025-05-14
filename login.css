@@ -1,0 +1,92 @@
+/* login.css */
+
+.login {
+  max-width: 400px;
+  margin: 50px auto; /* căn giữa trang */
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login form div {
+  margin-bottom: 15px; /* khoảng cách giữa các phần tử */
+}
+
+.login label {
+  display: block; /* hiển thị label dưới dạng khối */
+  margin-bottom: 6px;
+  color: #555;
+  font-weight: 500; /* đậm hơn một chút */
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box; /* bao gồm padding và border trong kích thước */
+}
+
+.login input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.login a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login a:hover {
+  text-decoration: underline; /* thêm gạch chân khi hover */
+}
+
+.login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none; /* không có viền */
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer; /* con trỏ chuột khi hover */
+}
+
+.login button:hover {
+  background-color: #0056b3;
+}
+
+.login-container {  
+    display: flex; /* sử dụng flexbox để căn chỉnh các phần tử */
+    justify-content: space-between; /* căn giữa các phần tử */
+    align-items: center; /* căn giữa theo chiều dọc */
+    margin-bottom: 10px; /* khoảng cách giữa các phần tử */
+}
+
+.login-container label,
+.login-container p {
+    margin: 0; /* không có khoảng cách bên ngoài */
+    font-size: 14px;
+    color: #333;
+    flex: 1; /* sử dụng flex để chia đều không gian */
+}
+
+.login-container a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none; /* không có gạch chân */
+    margin-left: 10px;
+}
+
+.login-container a:hover {
+    text-decoration: underline; /* thêm gạch chân khi hover */
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Cheri Cheri",
+    "src": "/chericheri.mp3",
+    "image": "/anhCard.png",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Dancing Queen",
+    "src": "/chericheri.mp3",
+    "image": "/anhCard.png",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "title": "I Want to Break Free",
+    "src": "/chericheri.mp3",
+    "image": "/anhCard.png",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "title": "Take on Me",
+    "src": "/chericheri.mp3",
+    "image": "/anhCard.png",
+    "rating": 4.5
+  },
+    {
+        "id": 5,
+        "title": "Billie Jean",
+        "src": "/chericheri.mp3",
+        "image": "/anhCard.png",
+        "rating": 4.5
+    },
+    {
+        "id": 6,
+        "title": "Sweet Child O' Mine",
+        "src": "/chericheri.mp3",
+        "image": "/anhCard.png",
+        "rating": 4.5
+    },
+    {
+        "id": 7,
+        "title": "Bohemian Rhapsody",
+        "src": "/chericheri.mp3",
+        "image": "/anhCard.png",
+        "rating": 4.5
+    },
+    {
+        "id": 8,
+        "title": "Hotel California",
+        "src": "/chericheri.mp3",
+        "image": "/anhCard.png",
+        "rating": 4.5
+    },
+    {
+        "id": 9,
+        "title": "Stairway to Heaven",
+        "src": "/chericheri.mp3",
+        "image": "/anhCard.png",
+        "rating": 4.5
+    },
+    {
+        "id": 10,
+        "title": "Imagine",
+        "src": "/chericheri.mp3",
+        "image": "/anhCard.png",
+        "rating": 4.5
+    }
+]
